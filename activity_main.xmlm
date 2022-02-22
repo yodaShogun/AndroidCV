@@ -1,0 +1,103 @@
+xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainLabel"
+        android:layout_width="374dp"
+        android:layout_height="40dp"
+        android:text="CURRICULUM VITAE"
+        android:textAlignment="center"
+        android:textColor="#460B7A"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="154dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="40sp"
+        android:text="HighSchool"
+        android:textColor="#3F51B5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/hs"
+        android:layout_width="294dp"
+        android:layout_height="47dp"
+        android:text="Ecole St-Jean Evangeliste"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/hs1"
+        android:layout_width="299dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="-20sp"
+        android:text="College Canado Haitien"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/univLabel"
+        android:layout_width="128dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="20sp"
+        android:text="University"
+        android:textColor="#3F51B5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/univItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ecole Superieure Infotronique D'Haiti (ESIH)"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/workLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="Professional Work"
+        android:textColor="#3F51B5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/workItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5sp"
+        android:text="IDEJEN"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5sp"
+        android:text="Andrena Solutions "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45sp"
+        android:text="Languages"
+        android:textColor="#3F51B5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20sp"
+        android:paddingTop="25sp"
+        android:text="Français , Espagnol, Anglais, Allemand"
+        android:textSize="20sp" />
+</LinearLayout>
